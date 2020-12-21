@@ -21,6 +21,11 @@ body {
   padding-top: 10px;
 }
 
+.pre-scrollable {
+  min-height: 340px;
+  max-height: 1000px;
+}
+
 .response-metric, .response-metric-value {
   font-size: 0.9em;
 }
@@ -162,6 +167,22 @@ label.disabled {
 }
 
 .ctx-menu-item:hover {
+  background-color: #337ab7;
+  color: white;
+}
+
+a.donate-link {
+  display: block;
+  width: 100%;
+  border: 1px solid #337ab7;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+a.donate-link:hover {
   background-color: #337ab7;
   color: white;
 }
